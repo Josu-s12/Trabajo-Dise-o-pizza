@@ -1,4 +1,5 @@
 package edu.unisabana.pizzafactory.model;
 
-public class Horneador {
+public abstract class Horneador {
+    public abstract void hornear();
 }

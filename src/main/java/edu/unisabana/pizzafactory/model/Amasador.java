@@ -1,4 +1,5 @@
 package edu.unisabana.pizzafactory.model;
 
-public class Amasador {
+public abstract class Amasador {
+    public abstract void amasar();
 }

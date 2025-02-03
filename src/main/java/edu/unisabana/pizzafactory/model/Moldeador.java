@@ -1,4 +1,6 @@
 package edu.unisabana.pizzafactory.model;
 
-public class Moldeador {
+public abstract class Moldeador {
+    public abstract void moldearPizzaPequena();
+    public abstract void moldearPizzaMediana();
 }
